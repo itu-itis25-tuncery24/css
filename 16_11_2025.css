@@ -1,65 +1,45 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: white;
-        margin: 30px;
-    }
+p.centered {
+    text-indent: 3mm;
+    text-align: center;
+    text-emphasis-color: red;
+    text-emphasis-style: "*";
+    text-shadow: 2px 2px yellow;
+}
 
-    .centered {
-        text-align: center;
-        color: red;
-        font-style: italic;
-        display: block; 
-        margin: 0 auto;
-        width: fit-content;
-        padding: 4px 8px;
-    }
+em {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
 
-    h4 {
-        color: black;
-        margin-top: 40px;
-    }
+.center-icon img {
+    display: inline-block;
+    margin: 0 auto;
+}
 
-    .boxed {
-        border: 2px solid green;
-        padding: 2px 6px;
-        border-radius: 4px;
-    }
+.center-icon {
+    text-align: center;
+}
 
-    .bees-title {
-        color: red;
-        margin-top: 40px;
-    }
+ol {
+    border: thick solid purple;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 4ex;
+    width: 50%;
+    background-color: aquamarine;
+}
 
-    img {
-        display: block;
-    }
+h1 {
+    text-decoration: underline;
+    color: red;
 
-    a {
-        color: blue;
-        text-decoration: none;
-    }
+}
 
-    a:hover {
-        text-decoration: underline;
-    }
-
-    table {
-        border-collapse: collapse;
-        width: 50%;
-    }
-
-    th, td {
-        border: 1px solid black;
-        text-align: center;
-        padding: 6px;
-    }
-
-    pre {
-        background-color: #f5f5f5;
-        padding: 10px;
-        width: 70%;
-        border: 1px solid #ccc;
-        border-radius: 6px;
-    }
-</style>
+/* Adım 7: Tablo Başlığı (th) Stili */
+table th {
+    background-color: orange;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
